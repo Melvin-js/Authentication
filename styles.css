@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f6f5f7;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.container{
+    margin: 5%;
+    display: flex;
+    width: 850px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.container_login{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 40px;
+    padding-bottom: 60px;
+    width: 50%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.container_overlay{
+    width: 50%;
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input{
+    border-radius: 50px;
+    padding: 6px 20px;
+    width: 100%;
+    height: 46px;   
+    box-sizing: border-box;
+    border: none;
+    background-color: #eee;
+}
+
+input[type="checkbox"]{
+    width: 17px;
+    height: 17px;
+    accent-color: rgb(255, 0, 64);
+}
+
+.button_signin{
+    width:100%;
+    height: 46px;
+    border-radius: 200px;
+    border: none;
+    margin-top: 14px;
+    font-size: 14px;
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    color: #eee;
+    font-weight: 500;
+}
+
+h5{
+    margin-bottom: 8px;
+    margin-top: 25px;
+}
+
+.footer{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14px;
+    gap:10px;
+}
+
+.footer label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    white-space: nowrap;
+
+}
+
+.footer a{
+    white-space: nowrap;
+}
